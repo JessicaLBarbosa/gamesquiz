@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 // src/components/Footer/index.js
 const FooterWrapper = styled.footer`
-  background-color: #00000070;
+  background-color: #BC78EC60;
   padding: 20px;
   display: flex;
   align-items: center;
@@ -17,6 +17,7 @@ const FooterWrapper = styled.footer`
     transition: .3s;
     &:hover,
     &:focus {
+      color: #FAB2FF; 
       opacity: .5;
     }
     span {
@@ -40,6 +41,10 @@ export default function Footer(props) {
         <a href="https://www.alura.com.br/">
           <span>Imersão React da Alura</span>
         </a>
+        {' '}
+        por
+        {' '}
+        <a href="https://github.com/JessicaLBarbosa"> @JessicaLBarbosa</a>
       </p>
     </FooterWrapper>
   );

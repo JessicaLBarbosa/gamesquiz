@@ -39,15 +39,16 @@ export default function Home() {
         </Widget>
 
         <Widget>
-          <Widget.Content>
+          <Widget.Header>
             <h1>Quizes da Galera</h1>
-
+          </Widget.Header>
+          <Widget.Content>
             <p>lorem ipsum dolor sit amet...</p>
           </Widget.Content>
         </Widget>
         <Footer />
       </QuizContainer>
-      <GitHubCorner projectUrl="https://github.com/omariosouto" />
+      <GitHubCorner projectUrl="https://github.com/JessicaLBarbosa" />
     </QuizBackground>
   );
 }

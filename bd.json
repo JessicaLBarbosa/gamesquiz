@@ -1,6 +1,6 @@
 {
     "bg": "https://cdn.statically.io/img/wallpaperaccess.com/full/909679.jpg",
-    "title": "Quiz de Jogos",
+    "title": "Games Quiz",
     "description": "Teste os seus conhecimentos sobre video-games",
     "questions": [
       {
@@ -31,8 +31,8 @@
     ],
     "theme": {
       "colors": {
-        "primary": "#9618f7",
-        "secondary": "#a3c9e2",
+        "primary": "#BC78EC",
+        "secondary": "#FAB2FF",
         "mainBg": "#212121",
         "contrastText": "#FFFFFF",
         "wrong": "#d50000",
