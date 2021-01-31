@@ -1,6 +1,7 @@
 import React from 'react';
 import { createGlobalStyle, ThemeProvider } from 'styled-components';
 import Head from 'next/head';
+
 import bd from '../bd.json';
 
 const GlobalStyle = createGlobalStyle`
